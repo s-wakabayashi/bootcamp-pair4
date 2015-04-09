@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Git Playground!!</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<script src="js/jquery-1.11.2.min.js"></script>
+<script>
+  $(function(){
+    $('button').click(function(){
+      alert('ボタンをクリック');
+    });
+  });
+</script>
+</head>
+<body>
+<style>
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: #d10000;
+  border:4px solid #333;
+}
+p{
+  font-size: 50px;
+  line-height: 500px;
+  text-align: center;
+  color: #fff;
+}
+</style>
+<button>クリック</button>
+<div class="box">
+  <p>Git道場へようこそ</p>
+</div>
+</body>
+</html>
